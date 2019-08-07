@@ -1,0 +1,179 @@
+name: Acadia
+state: Maine
+lat: 44.376789
+long: -68.255569
+
+name: American Samoa
+state: American Samoa
+lat: -14.261944
+long: -170.688056
+
+name: Arches
+state: Utah
+lat: 38.637291
+long: -109.600533
+
+name: Badlands
+state: South Dakota
+lat: 43.907810
+long: -102.332787
+
+name: Big Bend
+state: Texas
+lat: 29.334591
+long: -103.256577
+
+name: Biscayne
+state: Florida
+lat: 25.503122
+long: -80.234848
+
+name: Black Canyon of the Gunnison
+state: Colorado
+lat: 38.568489
+long: -107.732788
+
+name: Bryce Canyon
+state: Utah
+lat: 37.627361
+long: -112.185257
+
+name: Canyonlands
+state: Utah
+lat: 37.903358
+long: -110.360588
+
+name: Capitol Reef
+state: Utah
+lat: 37.827221
+long: -111.079720
+
+name: Carlsbad Caverns 
+state: New Mexico
+lat: 32.723801
+long: -104.089119
+
+name: Channel Islands 
+state: California
+lat: 33.998610
+long: -119.858380
+
+name: Congaree
+state: South Carolina
+lat: 34.023731
+long: -80.990578
+
+name: Crater Lake
+state: Oregon
+lat: 43.056629
+long: -122.283638
+
+name: Cuyahoga Valley
+state: Ohio
+lat: -31.625910
+long: 116.214989
+
+
+name: Death Valley
+state: California, Nevada
+lat: 36.167900
+long: -116.622200
+
+name: Denali
+state: Alaska
+lat: 63.114799
+long: -151.192612
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
+
+name: 
+state: 
+lat: 
+long: 
