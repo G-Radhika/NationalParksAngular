@@ -12,6 +12,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AgmCoreModule } from '@agm/core';
 import { MapComponent } from './map/map.component';
@@ -33,6 +34,7 @@ import { MapComponent } from './map/map.component';
     HttpClientModule,
     MatNativeDateModule,
     ReactiveFormsModule,
+    NgbModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAVexZcch2V-69NI8eIhMw8LEhLNFZQrrk'
     })

@@ -1,6 +1,6 @@
 agm-map {
   height: 400px !important;
-  width: 60%;  /* This is really important*/
+  width: 100%;  /* This is really important*/
   border: 2px solid #c3c3c3;
   display: -webkit-flex;
   display: flex;
