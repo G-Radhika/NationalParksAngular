@@ -1,45 +1,23 @@
 import { Component, OnInit } from '@angular/core';
+import { MARKERS } from './list';
+import { Marker } from './marker';
 
 @Component({
   selector: 'app-list-view',
   templateUrl: './list-view.component.html',
   styleUrls: ['./list-view.component.css']
 })
-export class ListViewComponent {
-/*   markers: marker[] = [
-    {
-      lable: '1',
-      name: 'Acadia',
-      state: 'Maine',
-      lat: 44.376789,
-      lng: -68.255569
-    },
-    {
-      lable: '2',
-      name: 'American Samoa',
-      state: 'American Samoa',
-      lat: -14.261944,
-      lng: -170.688056
-    },
-    {
-      lable: '3',
-      name: 'Arches',
-      state: 'Utah',
-      lat: 38.637291,
-      lng: -109.600533
-    } */
+export class ListViewComponent implements OnInit {
+  markers = MARKERS;
+  selectedMarker: Marker;
+
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  listItemClicked(marker: Marker): void {
+    this.selectedMarker = marker;
+    console.log(this.selectedMarker.name);
   }
 
 }
-
-// tslint:disable-next-line: class-name
-/* interface marker {
-  lable?: string;
-  name: string;
-  state: string;
-  lat: number;
-  lng: number;
-} */

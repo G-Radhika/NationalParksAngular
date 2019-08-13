@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
+  values = '';
   constructor() { }
 
   ngOnInit() {
+  }
+
+
+  onKey(event: any) { // without type info
+    this.values += event.target.value;
+    console.log(this.values);
   }
 
 }

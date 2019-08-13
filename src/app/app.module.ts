@@ -7,15 +7,22 @@ import { SearchComponent } from './search/search.component';
 import { InfoComponent } from './info/info.component';
 import { ListViewComponent } from './list-view/list-view.component';
 import { TitleComponent } from './title/title.component';
+import { MapComponent } from './map/map.component';
+import { MenuComponent } from './menu/menu.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
 
 import { MatNativeDateModule } from '@angular/material/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AgmCoreModule } from '@agm/core';
-import { MapComponent } from './map/map.component';
+
+
 
 @NgModule({
   declarations: [
@@ -25,7 +32,9 @@ import { MapComponent } from './map/map.component';
     InfoComponent,
     ListViewComponent,
     TitleComponent,
-    MapComponent
+    MapComponent,
+    MenuComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +44,9 @@ import { MapComponent } from './map/map.component';
     MatNativeDateModule,
     ReactiveFormsModule,
     NgbModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatSidenavModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAVexZcch2V-69NI8eIhMw8LEhLNFZQrrk'
     })
