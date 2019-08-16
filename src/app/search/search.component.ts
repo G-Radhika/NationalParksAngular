@@ -1,22 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
+
+import { MARKERS } from '../list-view/list';
 
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.css']
 })
-export class SearchComponent implements OnInit {
+export class SearchComponent {
+  markers = MARKERS;
+  myControl = new FormControl();
+  Places: string[] = [];
 
-  values = '';
-  constructor() { }
-
-  ngOnInit() {
+  populatePlace() {
+    this.markers.forEach(marker => {
+      this.Places.push(marker.name);
+    });
   }
-
-
-  onKey(event: any) { // without type info
-    this.values += event.target.value;
-    console.log(this.values);
-  }
+  constructor() {}
 
 }

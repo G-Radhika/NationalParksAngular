@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { MARKERS } from './list';
 import { Marker } from './marker';
+import { MARKERS } from './list';
+import { MessageService } from './message.service';
+
 
 @Component({
   selector: 'app-list-view',
@@ -11,7 +13,7 @@ export class ListViewComponent implements OnInit {
   markers = MARKERS;
   selectedMarker: Marker;
 
-  constructor() { }
+  constructor(public messageService: MessageService) { }
 
   ngOnInit() { }
 
@@ -19,5 +21,4 @@ export class ListViewComponent implements OnInit {
     this.selectedMarker = marker;
     console.log(this.selectedMarker.name);
   }
-
 }

@@ -6,7 +6,7 @@
     <agm-info-window
       [isOpen]="isInfoWindowOpen(marker.id)"
       [latitude]="marker.lat"
-      [longitude]="marker.lng">{{marker.name}}</agm-info-window>
+      [longitude]="marker.lng">{{marker.name}}<br>{{marker.url}}
+    </agm-info-window>
   </agm-marker>
 </agm-map>
-<button type="button" (click)="openWindow(5)">Open InfoWindow 5</button>
