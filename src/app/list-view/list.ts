@@ -147,11 +147,11 @@ export const MARKERS: Marker[] = [
   },
   {
     id: 37, name: 'Kenai Fjords', state: 'Alaska', s: 'AL', lat: 59.815710, lng: -150.108570,
-    url: 'https://en.wikipedia.org/wiki/Kenai_Fjords_National_Park', area: 669650 , yearEST: 1980, visitors: 321596
+    url: 'https://en.wikipedia.org/wiki/Kenai_Fjords_National_Park', area: 669650, yearEST: 1980, visitors: 321596
   },
   {
     id: 38, name: 'Kings Canyon', state: 'California', s: 'CA', lat: 36.915278, lng: -118.607656,
-    url: 'https://en.wikipedia.org/wiki/Kings_Canyon_National_Park', area: 461901 , yearEST: 1940, visitors: 699023
+    url: 'https://en.wikipedia.org/wiki/Kings_Canyon_National_Park', area: 461901, yearEST: 1940, visitors: 699023
   },
   {
     id: 39, name: 'Kobuk Valley', state: 'Alaska', s: 'AL', lat: 67.389823, lng: -159.057432,
@@ -171,7 +171,7 @@ export const MARKERS: Marker[] = [
   },
   {
     id: 43, name: 'Mesa Verde', state: 'Colorado', s: 'CO', lat: 37.253777, lng: -108.455597,
-    url: 'https://en.wikipedia.org/wiki/Mesa_Verde_National_Park', area: 52485 , yearEST: 1906, visitors: 563420
+    url: 'https://en.wikipedia.org/wiki/Mesa_Verde_National_Park', area: 52485, yearEST: 1906, visitors: 563420
   },
   {
     id: 44, name: 'Mount Rainier', state: 'Washington', s: 'WA', lat: 46.853983, lng: -121.706533,
@@ -187,7 +187,7 @@ export const MARKERS: Marker[] = [
   },
   {
     id: 47, name: 'Petrified Forest', state: 'Arizona', s: 'AR', lat: 35.07, lng: -109.78,
-    url: 'https://en.wikipedia.org/wiki/Petrified_Forest_National_Park', area: 221390 , yearEST: 1962, visitors: 644922
+    url: 'https://en.wikipedia.org/wiki/Petrified_Forest_National_Park', area: 221390, yearEST: 1962, visitors: 644922
   },
   {
     id: 48, name: 'Pinnacles', state: 'California', s: 'CA', lat: 36.48, lng: -121.16,
@@ -203,7 +203,7 @@ export const MARKERS: Marker[] = [
   },
   {
     id: 51, name: 'Saguaro', state: 'Arizona', s: 'AR', lat: 32.25, lng: -110.50,
-    url: 'https://en.wikipedia.org/wiki/Saguaro_National_Park', area: 91715 , yearEST: 1994, visitors: 957405
+    url: 'https://en.wikipedia.org/wiki/Saguaro_National_Park', area: 91715, yearEST: 1994, visitors: 957405
   },
   {
     id: 52, name: 'Sequoia', state: 'California', s: 'CA', lat: 36.43, lng: -118.68,
@@ -215,7 +215,7 @@ export const MARKERS: Marker[] = [
   },
   {
     id: 54, name: 'Theodore Roosevelt', state: 'North Dakota', s: 'ND', lat: 46.97, lng: -103.45,
-    url: 'https://en.wikipedia.org/wiki/Theodore_Roosevelt_National_Park', area: 70446 , yearEST: 1978, visitors: 749389
+    url: 'https://en.wikipedia.org/wiki/Theodore_Roosevelt_National_Park', area: 70446, yearEST: 1978, visitors: 749389
   },
   {
     id: 55, name: 'Virgin Islands', state: 'Virgin Islands', s: 'VI', lat: 18.33, lng: -64.73,
@@ -231,7 +231,8 @@ export const MARKERS: Marker[] = [
   },
   {
     id: 58, name: 'Wrangell–St.Elias', state: 'Alaska', s: 'AL', lat: 61.00, lng: -142.00,
-    url: 'https://en.wikipedia.org/wiki/Wrangell%E2%80%93St._Elias_National_Park_and_Preserve', area: 8323146, yearEST: 1980, visitors: 79450
+    url: 'https://en.wikipedia.org/wiki/Wrangell%E2%80%93St._Elias_National_Park_and_Preserve',
+    area: 8323146, yearEST: 1980, visitors: 79450
   },
   {
     id: 59, name: 'Yellowstone', state: 'Wyoming, Montana, Idaho', s: 'WY, MO & ID', lat: 44.60, lng: -110.50,

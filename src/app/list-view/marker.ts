@@ -7,6 +7,6 @@ export class Marker {
   lng: number;
   url: string;
   area: number;
-  yearEST: number; // mm/dd/yyyy
+  yearEST: number; // yyyy
   visitors: number;
 }
