@@ -21,6 +21,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AgmCoreModule } from '@agm/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material';
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,7 @@ import { MatInputModule } from '@angular/material';
       apiKey: 'AIzaSyAVexZcch2V-69NI8eIhMw8LEhLNFZQrrk'
     })
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

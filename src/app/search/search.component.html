@@ -3,7 +3,7 @@
     <input type="text" placeholder="Search..." aria-label="Assignee" matInput [formControl]="myControl"
       [matAutocomplete]="auto">
     <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
-      <mat-option *ngFor="let marker of filteredMarker | async" [value]="marker">
+      <mat-option *ngFor="let marker of filteredMarker$ | async" [value]="marker">
         {{marker}}
       </mat-option>
     </mat-autocomplete>
